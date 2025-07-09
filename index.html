@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Markazu Islamiyya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo" class="logo">
+    <h1>Markazu Islamiyya School</h1>
+    <p>Knowledge • Discipline • Faith</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.php">Admin</a>
+  </nav>
+
+  <section>
+    <h2>About Us</h2>
+    <p>We are dedicated to Islamic and Western education...</p>
+    <img src="images/school1.jpg" alt="School image" class="gallery">
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Markazu Islamiyya</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
